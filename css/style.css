@@ -531,7 +531,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-bottom: 16px;
 }
 
-.footlink:hover {
+.footlink:hover, .footlink:focus {
   background-color: #31d0aa
 }
 /* footer */
