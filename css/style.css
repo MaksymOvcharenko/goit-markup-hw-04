@@ -374,7 +374,11 @@ header {
   display: flex;
   
 }
-.icon-link:focus, .icon-link.hover {
+.icon-link:focus {
+  background-color: #404bbf;
+}
+
+.icon-link:hover {
   background-color: #404bbf;
 }
 /* team */
