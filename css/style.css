@@ -101,12 +101,18 @@ header {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
- 
+  
+}
+
+.active {
+  color: #404bbf;
   position: relative;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .nav-link::after {
-  content: " ";
+  content: '';
   
   height: 4px;
   border-radius: 2px;
@@ -114,8 +120,8 @@ header {
   position:absolute;
   bottom: -1px;
   left: 0;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
+  background-color: #404bbf;
 }
 .nav-link:hover,
 .nav-link:focus, .nav-link:active {
