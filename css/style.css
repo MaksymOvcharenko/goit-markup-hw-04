@@ -51,7 +51,8 @@ img {
 /* header */
 header {
   border-bottom: 1px solid #e7e9fc;
-  box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-cont {
@@ -101,40 +102,36 @@ header {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
-  
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .active {
   color: #404bbf;
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .active::after {
-  content: '';
-  
+  content: "";
+
   height: 4px;
   border-radius: 2px;
   width: 100%;
-  position:absolute;
+  position: absolute;
   bottom: -1px;
   left: 0;
-  
+
   background-color: #404bbf;
 }
 .nav-link:hover,
-.nav-link:focus, .nav-link:active {
+.nav-link:focus,
+.nav-link:active {
   color: #404bbf;
 }
 
 .nav-link:active::after {
   background-color: #404bbf;
-  
 }
-
-
-
 
 .contact {
   font-style: normal;
@@ -208,7 +205,7 @@ header {
   min-width: 169px;
   height: 56px;
   border: none;
-  transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .main-button:hover,
 .main-button:focus {
@@ -359,7 +356,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-soc {
@@ -368,11 +365,9 @@ header {
   gap: 24px;
 }
 .icon-cont {
- 
   width: 40px;
   height: 40px;
   display: flex;
-  
 }
 .icon-link:focus {
   background-color: #404bbf;
@@ -410,8 +405,6 @@ header {
   flex-wrap: wrap;
 }
 
-
-
 .port-cont {
   padding: 32px 16px;
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
@@ -424,14 +417,15 @@ header {
 }
 
 .port-item:hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .port-item:hover .overlay {
   transform: translateY(0);
 }
 
-.port-item-anim{
+.port-item-anim {
   position: relative;
   overflow: hidden;
 }
@@ -442,16 +436,14 @@ header {
   top: 0;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em; 
+  letter-spacing: 0.02em;
   padding: 40px 32px;
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
-transform: translateY(100%);
-transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-
 
 .port-img {
 }
@@ -500,7 +492,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-text {
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: Roboto;
   font-style: normal;
   font-size: 16px;
@@ -511,19 +503,18 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .divfoot {
   display: flex;
-  align-items: baseline
+  align-items: baseline;
 }
 
 .cont-foot-left {
-  margin-right: 120px
+  margin-right: 120px;
 }
 
 .con-foot-soc {
-  
 }
 
 .soc {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -531,8 +522,9 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-bottom: 16px;
 }
 
-.footlink:hover, .footlink:focus {
-  background-color: #31d0aa
+.footlink:hover,
+.footlink:focus {
+  background-color: #31d0aa;
 }
 /* footer */
 .foot {
